@@ -16,10 +16,10 @@ from sklearn.model_selection import learning_curve
 from sklearn.model_selection import GridSearchCV
 
 
-model_path = r"C:\Users\kervi\Documents\DataScientest - PROJETS\PROJET BIEN-ETRE MACHINE LEARNING\ridge_model.joblib"
+model_path = r"C:\Users\kervi\OneDrive\Documents\GitHub\kervindholah\ridge_model.joblib"
 ridge_model = load(model_path)
 
-fp = r"C:\Users\kervi\OneDrive\Documents\GitHub\JAN23_DA_Bien-Etre\notebooks\projet_world_happiness_pour_machine_learning.csv"
+fp = r"C:\Users\kervi\OneDrive\Documents\GitHub\kervindholah\Notebook\projet_world_happiness_pour_machine_learning.csv"
 df = pd.read_csv(fp)
 
 
@@ -58,7 +58,7 @@ st.dataframe(filtered_df.style.apply(highlight_target, axis=0))
 # -----------------------------------------------------------
 # intéractivité
 
-filepath = r"C:\Users\kervi\Documents\DataScientest - PROJETS\STREAMLIT\df_encoded_streamlit.csv"
+filepath = r"C:\Users\kervi\OneDrive\Documents\GitHub\kervindholah\Notebook\df_encoded_streamlit.csv"
 df_encoded = pd.read_csv(filepath)
 
 
