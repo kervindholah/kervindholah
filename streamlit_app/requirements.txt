@@ -18,3 +18,4 @@ pip
 requests
 streamlit_lottie
 pydataset
+joblib
