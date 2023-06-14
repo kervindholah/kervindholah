@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from joblib import dump, load
 import pickle
+import plotly
 
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import OneHotEncoder
@@ -24,7 +25,7 @@ from sklearn.model_selection import GridSearchCV
 #with open(r"C:\Users\kervi\Documents\DataScientest - PROJETS\PROJET BIEN-ETRE MACHINE LEARNING\ridge_model.pkl", 'rb') as f:
 #    model = pickle.load(f)
 
-fp = r"C:\Users\kervi\OneDrive\Documents\GitHub\kervindholah\streamlit_app\projet_world_happiness_pour_machine_learning.csv"
+fp = r"C:\Users\kervi\PycharmProjects\ProjetStreamlit\projet_world_happiness_pour_machine_learning.csv"
 df = pd.read_csv(fp)
 
 score_df = df["Life_Ladder"]
@@ -64,7 +65,7 @@ st.dataframe(filtered_df.style.apply(highlight_target, axis=0))
 # -----------------------------------------------------------
 # intéractivité
 
-filepath = r"C:\Users\kervi\OneDrive\Documents\GitHub\kervindholah\streamlit_app\df_encoded_streamlit.csv"
+filepath = r"C:\Users\kervi\PycharmProjects\ProjetStreamlit\df_encoded_streamlit.csv"
 df_encoded = pd.read_csv(filepath)
 
 
