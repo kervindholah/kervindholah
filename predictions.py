@@ -17,8 +17,8 @@ from sklearn.model_selection import learning_curve
 from sklearn.model_selection import GridSearchCV
 
 
-model_path = r"C:\Users\kervi\OneDrive\Documents\GitHub\kervindholah\streamlit_app\ridge_model.joblib"
-ridge_model = load(model_path)
+#model_path = r"C:\Users\kervi\OneDrive\Documents\GitHub\kervindholah\streamlit_app\ridge_model.joblib"
+#ridge_model = load(model_path)
 
 
 #with open(r"C:\Users\kervi\Documents\DataScientest - PROJETS\PROJET BIEN-ETRE MACHINE LEARNING\ridge_model.pkl", 'rb') as f:
